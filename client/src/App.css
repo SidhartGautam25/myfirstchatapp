@@ -1,0 +1,173 @@
+.chatbox{
+  border:1px solid rgb(37,37,37);
+  border-radius: 8px;
+  width:40%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+.chatboxheader{
+  border:1px solid rgb(37,37,37);
+  width:96%;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding:8px;
+  background-color: black;
+  border-radius: 8px;
+  color:rgb(233, 230, 230);
+}
+.chatboxbody{
+  border:1px solid rgb(37,37,37);
+  width:99%;
+  height:85%;
+  background-color: rgb(12, 12, 12);
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.msgsentbox{
+  border:1px solid rgb(37,37,37);
+  width:98%;
+}
+.msginput{
+  height:35px;
+  width:75%;
+  border:1px solid rgb(37,37,37);
+  border-radius: 8px;
+  background-color: rgb(8, 8, 8);
+  font-size: 21;
+  font-weight: 600;
+  color:rgb(231, 228, 228);
+}
+.msgbutton{
+  height:34px;
+  width: 22%;
+  border:1px solid rgb(37,37,37);
+  background-color: rgb(8, 4, 41);
+  border-radius: 8px;
+  margin-left: 2px;
+  font-size: 20px;
+  font-weight: 600;
+  color:rgb(233, 230, 230);
+}
+.msgsmallleft{
+  width:fit-content;
+  height:fit-content;
+  background-color: rgb(53, 52, 52);
+  border:1px solid rgb(37,37,37);
+  padding:6px;
+  margin:3px;
+  align-self: flex-end;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 18;
+  color:rgb(233, 230, 230);
+}
+.msgsmallright{
+  width:fit-content;
+  height:fit-content;
+  background-color: rgb(53, 52, 52);
+  border:1px solid rgb(37,37,37);
+  padding:6px;
+  margin:3px;
+  align-self: flex-start;
+  border-radius: 7px;
+  font-size: 18;
+  font-weight: 600;
+  color:rgb(233, 230, 230);
+}
+.mainbox{
+  width:95%;
+  height:550px;
+  border:2px solid rgb(37,37,37);
+  display:flex;
+  
+}
+.groupbox{
+  width:30%;
+  height:100%;
+  border:2px solid rgb(37,37,37);
+  background-color: rgb(20, 20, 20);
+}
+.groupheading{
+  width:98%;
+  height:50px;
+  background-color: black;
+  border:2px solid rgb(37, 37, 37);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px; 
+  color:rgb(233, 230, 230);
+  font-weight: 500;
+}
+.groupbody{
+  width:98%;
+  height:88%;
+  border:2px solid rgb(37,37,37);
+  border-radius: 5px;
+  background-color: rgb(12,12,12);
+}
+.roomsname{
+  width:96%;
+  text-align: center;
+  padding:3px;
+  margin:1px;
+  border:2px solid rgb(37,37,37);
+  border-radius:5px;
+  background-color: rgb(22, 22, 22);
+  font-size: 20px;
+  color:rgb(233, 230, 230);
+  font-size: 16px;
+  font-weight:600;
+}
+.roomdetail{
+  width:97%;
+  height:40px;
+  background-color: rgb(15, 15, 15);
+  border:1px solid rgb(37,37,37);
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top:2px;
+  margin-bottom: 2px;
+  color:rgb(233, 230, 230);
+  
+}
+.namedetail{
+  width:97%;
+  height:40px;
+  background-color: rgb(15, 15, 15);
+  border:1px solid rgb(37,37,37);
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top:2px;
+  margin-bottom: 2px;
+  color:rgb(233, 230, 230);
+  
+}
+.submitbutton{
+  width:97%;
+  height:40px;
+  background-color: rgb(8,8,8);
+  border:1px solid rgb(37,37,37);
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top:2px;
+  margin-bottom: 2px;
+  color:rgb(233, 230, 230);
+  
+}
+.App{
+    width:100%;
+    height:100%;
+}
+.mainbox{
+  width:99%;
+  height:620px;
+}
